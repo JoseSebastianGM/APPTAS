@@ -1,0 +1,64 @@
+h1{
+  text-align: center;
+}
+
+.form-register{
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  background: pink;
+}
+
+.form__titulo{
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-bottom: 5px solid red;
+}
+
+.contenedor-inputs{
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input{
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+}
+
+.input-48{
+  width: 48%;
+}
+
+.input-100{
+  width: 100%;
+}
+
+.input-68{
+  width: 65%;
+}
+
+.input-32{
+  width: 30%;
+}
+
+.btn-enviar{
+  background: red;
+  color: #fff;
+  margin: auto;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn-enviar:active{
+  transform: scale(1.05);
+}
